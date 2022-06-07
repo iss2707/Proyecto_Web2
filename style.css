@@ -1,0 +1,70 @@
+*{
+    padding: 0;    
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('img/webdev.png');
+    background-size: cover;
+
+}
+
+.css-box {
+    width: 500px ;
+    background: rgba(95, 91, 91, 0.9);
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto ;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+
+}
+
+.css-img {
+    border-radius: 50%;
+}
+
+.css-box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+
+.css-box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 0 0 30px 0;
+}
+
+.css-box p {
+    text-align: justify;
+}
+
+.css-box ul {
+    margin-top: 20px;
+    list-style: none;
+    
+}
+
+.css-box ul li{
+    display: inline-block;
+}
+
+.css-box ul li a {
+    color: white;
+    font-size: 50px;
+    padding: 10px 5px;
+    display: block;
+
+
+}
+
+.css-box ul li a:hover {
+    color: blueviolet;
+    transform: scale(1.2);
+
+}
